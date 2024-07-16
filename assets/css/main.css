@@ -1,0 +1,53 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(234, 250, 250);
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.todo {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px
+}
+
+.list {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    align-content: stretch;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.list-item {
+    /* background-color: rgb(210, 231, 250); */
+    border: 2px solid blue;
+    border-radius: 2px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.list-btn {
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: auto;
+}
